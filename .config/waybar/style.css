@@ -1,0 +1,59 @@
+window#waybar {
+  background: none;
+}
+
+#pulseaudio,
+#tray,
+#clock {
+  margin-left: 8px;
+}
+
+#workspaces,
+#idle_inhibitor,
+#pulseaudio,
+#network,
+#cpu,
+#memory,
+#backlight,
+#language,
+#battery,
+#tray,
+#clock,
+#custom-power {
+  background-color: rgba(0, 0, 0, .6);
+}
+
+#workspaces,
+#workspaces > *,
+#tray,
+#clock {
+  border-radius: 32px;
+}
+
+#pulseaudio {
+  border-radius: 32px 0 0 32px;
+}
+
+#battery {
+  border-radius: 0 32px 32px 0;
+}
+
+#workspaces > *,
+#idle_inhibitor,
+#pulseaudio,
+#network,
+#cpu,
+#memory,
+#backlight,
+#language,
+#battery,
+#tray,
+#clock,
+#custom-power {
+  padding: 0 8px;
+}
+
+#workspaces > *.focused {
+  background-color: #fff;
+  color: #000;
+}
